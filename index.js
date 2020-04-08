@@ -151,7 +151,6 @@ module.exports = {
     'useFieldState',
     'useFormState',
     'useForm',
-    'default',
     'useField',
     'useVirtualField',
     'useFormEffects',
@@ -195,7 +194,6 @@ module.exports = {
     'registerValidationFormats',
     'registerValidationRules',
     'registerValidationMTEngine',
-    'default',
   ],
   '@formily/shared': [
     'toArr',
@@ -252,5 +250,20 @@ module.exports = {
     'getMessage',
     'FormValidator',
   ],
+  'cool-path': [
+    'isType',
+    'isIdentifier',
+    'isIgnoreExpression',
+    'isDotOperator',
+    'isWildcardOperator',
+    'isExpandOperator',
+    'isGroupExpression',
+    'isRangeExpression',
+    'isDestructorExpression',
+    'isObjectPattern',
+    'isObjectPatternProperty',
+    'isArrayPattern',
+    'Path',
+  ]
   /** formily related end */
 };
